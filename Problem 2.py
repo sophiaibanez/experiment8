@@ -13,4 +13,4 @@ print (a)
 b = df.loc[df['Model'] == 'Mazda RX4 Wag', ['Model','cyl','gear']]
 c = df.loc[df['Model'] == 'Ford Pantera L', ['Model','cyl','gear']]
 d = df.loc[df['Model'] == 'Honda Civic', ['Model','cyl','gear']]
-print(b,d,a)
+print(b,c,d)
